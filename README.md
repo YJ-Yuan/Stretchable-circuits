@@ -5,6 +5,6 @@
 
 In the un-edited python Jupyter file, we deal with files like above. There are multiple folders with .xls files that we want to process. Those files are directly from Keithley 4200 and each file contains measured ID-VG curve of transistors of interest.
 
-We create a folder called "automation", and put this Jupyter file into the folder. Run this file and it will copy files in the specified folders (chip1234 in this case) to the same director.
+We create a folder called "automation", and put this Jupyter file into the folder. Run this file and it will copy files in the specified folders (chip1234 in this case) with .xls extension to the same director and rename them by adding their folder names.
 
 Jupyter Lab dependencies required
